@@ -34,6 +34,5 @@ public class Test {
         NLPTokenizer.ANALYZER.enableCustomDictionary(true); // 使用用词典分词。
         System.out.println(NLPTokenizer.segment("在我国，春季田间管理的重点是夏季粮油作物，主要是冬小麦和油菜，产量超过全年粮食产量的五分之一。"));
         System.out.println(NLPTokenizer.analyze("我救的不是他，是多年前一个寒夜里，在篝火与烈酒中，想仗剑江湖的少年。").translateLabels());
-
     }
 }
